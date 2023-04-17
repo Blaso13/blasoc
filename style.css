@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:'Stick No Bills', sans-serif;
+  background-color: black;
+}
+.containerThais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #333;
+  color: greenyellow;
+}
+#thaison {
+  font-size: 50px;
+  font-family: "Ephesis";
+   ;
+}
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: red;
+  border: 0px solid greenyellow;
+  margin-top: 50px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+  border: 1px solid greenyellow;
+  margin-top: 20px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+a:hover {
+  color: #0077c0;
+}
+.Ithais {
+  width: 400px;
+  height: auto;
+  margin: 10px;
+  border-color:  silver;
+  border-style: groove;
+}
+.Irayito {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-color:  silver;
+  border-style: groove;
+}
+.Iminnie {
+  width: 90%;
+  height: auto;
+  margin: 10px 0;
+  border-color:  silver;
+  border-style: groove;
+  border-radius: 100px;
+}
+
+.container {
+  margin-top: 40px;
+}
+.containerIthais {
+  display: flex;
+  justify-content: center;
+}
+#megusta {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+#megusta li {
+  margin: 10px 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+#megusta strong {
+  font-weight: bold;
+  color: goldenrod;
+}
+.radio-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.radio-group label {
+  margin-right: 10px;
+}
+.radio-group input[type="radio"] {
+  display: none;
+}
+.radio-group input[type="radio"] + label {
+  background-color: goldenrod;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  background-color: goldenrod;
+  color: goldenrod;
+}
+.Irayito {
+  border-radius: 50%;
+}
+input[type="radio"] {
+  margin: 5px;
+}
+
+input[type="checkbox"] {
+  margin: 8px;
+}
+
+
+
+body {
+   color: silver;
+}
+
+h2#thaison {
+  color: silver;
+}
+
+a {
+  color: rgb(11, 203, 72);
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+#megusta li::before {
+  color: goldenrod;
+}
+
+label.radio {
+  background-color: goldenrod;
+  color: goldenrod;
+}
+
+label.radio:hover {
+  background-color: goldenrod;
+}
+
+input[type="radio"]:checked + label.radio {
+  background-color: goldenrod;
+}
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  * {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  * {
+    font-size: 14px;
+  }
+}
+
+a:hover {
+  color: red !important;
+}
+
+
+<style>
+  .containerIthais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hola {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Ithais {
+    border: 5px solid silver; /* color y grosor del borde */
+    border-radius: 100px; /* redondez del borvge */
+    margin: 10px; /* espacio entre las imágenes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* sombra alrededor de las imágenes */
+  }
+</style>
+
+<div class="containerIthais">
+  <div class="hola">
+    <img src="c92348ce-ccaa-4f92-9758-87a383ac7a0a.jpg" class="Ithais" alt="Perro">
+    <img src="2e5c5fcb-be4f-458c-b3dd-6a6c86150277.jpg" class="Ithais" alt="Perro">
+  </div>
+</div>
+
+
+
+
+
+
+<style>
+  .container-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Irayito {
+    border: 5px solid silver; /* color y grosor del borde */
+    border-radius: 200px; /* redondez del borde */
+    margin: 10px; /* espacio entre las imágenes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* sombra alrededor de las imágenes */
+  }
+
+
+
+.container-images {
+  display: flex;
+  justify-content: space-between;
+}
+.Iminnie {
+  border: 5px solid silver; /* color y grosor del borde */
+  border-radius: 200px; /* redondez del borde */
+  margin: 10px; /* espacio entre las imágenes */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* sombra alrededor de las imágenes */
+}
+
+
